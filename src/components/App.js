@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom"
 import "../styles/App.css"
-import BottomNav from "./BottomNav"
+import BottomNav from "../components/BottomNav/BottomNav"
 import SearchBar from './SearchBar'
 import TopNav from '../components/TopNav/TopNav'
 
