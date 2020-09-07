@@ -5,10 +5,12 @@ import "../../styles/Profile.css"
 
 const Profile = (props) => {
   return(
-    <div className="profile-display">
+    <>
       <UserInfo/>
+    <div className="profile-display">
       <VideoGrid/>
     </div>
+    </>
   )
 }
 
