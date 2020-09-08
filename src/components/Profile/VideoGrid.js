@@ -22,7 +22,7 @@ const VideoGrid = (props) => {
   const classes = useStyles()
 
   function FormRow() {
-    console.log(props)
+    console.log(props.user)
 
     return (
       <React.Fragment>
@@ -67,7 +67,7 @@ const VideoGrid = (props) => {
 
 const UserVideos = gql`
   {
-    user(id: "5f563ba1d10b8d0cd842a31f") {
+    user(id: props.user) {
       id
       username
       email

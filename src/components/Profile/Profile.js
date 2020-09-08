@@ -8,7 +8,7 @@ const Profile = (props) => {
 	return (
 		<div className="profile-display">
 			<UserInfo user={props.user}/>
-			<VideoGrid/>
+			<VideoGrid user={props.user}/>
 		</div>
 	)
 }
