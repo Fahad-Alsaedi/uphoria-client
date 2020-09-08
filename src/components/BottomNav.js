@@ -8,13 +8,20 @@ import AddCircleIcon from '@material-ui/icons/AddCircle';
 import PermIdentityIcon from "@material-ui/icons/PermIdentity"
 import "../styles/BottomNav.css"
 
-const useStyles = makeStyles({
-	root: {
-		width: "100%",
-		height: "100%",
-		bottom: 0,
-	},
-})
+const useStyles = makeStyles((theme) => ({
+    root: {
+        [theme.breakpoints.down('sm')]: {
+            width: "100%",
+            bottom: 0,
+            position: "fixed",
+        },
+        [theme.breakpoints.up('md')]: {
+            width: "100%",
+            height: "100%",
+            bottom: 0
+        }
+    },
+}))
 
 const BottomNav = () => {
 	const classes = useStyles()
