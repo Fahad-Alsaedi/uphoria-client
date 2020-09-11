@@ -243,10 +243,13 @@ we still have a pretty nice app 😌 .
 
 Anthony Gregis - GitMaster/ Master and Commander of all things Code.
 [Anthony Gregis Github](https://github.com/anthonygregis)
+
 <br>Han - React/ Backend/ CSS Ninja
 [Han, she was never given a last names's Github](https://github.com/iwasnevergivenaname)
+
 <br>Subrata Roy- React/ Component Guru
 [Subrata Roy Github](https://github.com/subrataroy321)
+
 <br>Sameh Kinawy - Apollo/ Jack of all trades, master of none
 [Sameh Kinawy Github](https://github.com/kinawy)
 
